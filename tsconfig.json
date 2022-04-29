@@ -1,0 +1,21 @@
+/**
+ * This is a typescript configuration file.
+ * See options https://www.typescriptlang.org/tsconfig
+ */
+{
+  "compilerOptions": {
+    "outDir": "./public/",
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowUnreachableCode": false,
+    "strictNullChecks": true,
+  },
+  "include": [
+    "src"
+  ]
+}

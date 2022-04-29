@@ -74,3 +74,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+.\public\bundle.js
+.\public\bundle.js.LICENSE.txt
