@@ -10,14 +10,14 @@ This template covers all aspects of react application development without any ef
 Clone repository
 ```
 // Using SSH
-git clone git@github.com:anuj-webdev/minimal-react-boilerplate.git
+git clone git@github.com:anuj-webdev/minimal-react-typescript-boilerplate.git
 
 // Using HTTPS
-git clone https://github.com/anuj-webdev/minimal-react-boilerplate.git
+git clone https://github.com/anuj-webdev/minimal-react-typescript-boilerplate.git
 ```
 run npm install.
 ```
-cd minimal-react-boilerplate
+cd minimal-react-typescript-boilerplate
 npm install
 ```
 
