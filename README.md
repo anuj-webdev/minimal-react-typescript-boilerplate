@@ -36,7 +36,7 @@ npm run build
 ```
 
 ### **Linting**
-To lint project, run
+To check linting issues in project, run
 ```
 npm run lint
 ```
@@ -44,6 +44,17 @@ npm run lint
 To fix the lint issues in project, run
 ```
 npm run lint:fix
+```
+
+### **Code styling**
+To check formatting issue in project, run
+```
+npm run pretty
+```
+
+To fix the formatting issues in project, run
+```
+npm run pretty:fix
 ```
 
 ## Features
@@ -73,6 +84,10 @@ npm run lint:fix
 - [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code using eslint.
 - [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint) - Provide tooling which enables eslint to support typescript.
 - [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint) - An ESLint parser which enables ESLint to lint TypeScript source code.
+
+### **Prettier**
+- [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - To turns off all rules that are unnecessary/conflicting with Prettier.
 
 ## Author
 - Anuj Sharma

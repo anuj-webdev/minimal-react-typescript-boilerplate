@@ -1,6 +1,5 @@
 {
     "root": true,
-    "ignorePatterns": ["public", "node_modules", "webpack.*"],
     "env": {
       "browser": true,
       "es6": true
@@ -15,7 +14,8 @@
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
     ],
     "rules": {
         "semi": 1,
