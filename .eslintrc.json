@@ -1,0 +1,34 @@
+{
+    "root": true,
+    "ignorePatterns": ["public", "node_modules", "webpack.*"],
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "semi": 1,
+        "prefer-template": "off",
+        "no-var": 1,
+        "no-unused-vars": 2,
+        "camelcase": 1,
+        "no-nested-ternary": 1,
+        "no-console": 1,
+        "no-template-curly-in-string": 1,
+        "no-self-compare": 1,
+        "import/prefer-default-export": 0,
+        "arrow-body-style": 1,
+        "import/no-extraneous-dependencies": ["off", { "devDependencies": false }]
+    }
+  }

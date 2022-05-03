@@ -1,20 +1,33 @@
-# A minimal React 18 boilerplate
-A minimal React 18 boilerplate using TypeScript and webpack 5.\
-Best suited for the projects where you want minimum bundle size and more control on webpack & typescript configurations.
+# A truly minimal React 18, Typescript boilerplate
+A truly minimal most updated React 18, typescript boilerplate using webpack 5. Best suited for the projects where you want minimum bundle size and more control on webpack, typescript, eslint configurations, so that react project can be started with custom configurations without any much efforts from day one.
+
+This template covers all aspects of react application development without any efforts.
+* Development - React 18, Typescript
+* Package bundling - Webpack 5
+* Code quality - Eslint
 
 ## Installation
-Clone this repository and run npm install.
+Clone repository
 ```
+// Using SSH
+git clone git@github.com:anuj-webdev/minimal-react-boilerplate.git
+
+// Using HTTPS
+git clone https://github.com/anuj-webdev/minimal-react-boilerplate.git
+```
+run npm install.
+```
+cd minimal-react-boilerplate
 npm install
 ```
 
 ## Usage
 ### **Development server**
-Run webpack server, using npm start
+Run development webpack server, using npm start
 ```
 npm start
 ```
-This starts webpack server on port `3000`. To  change port, update port number in `webpack.dev.js` config file.
+Development webpack server starts on port `3000`. To  change port, update port number in `webpack.dev.js` config file.
 
 ### **Production build**
 To generate production build, run
@@ -22,10 +35,22 @@ To generate production build, run
 npm run build
 ```
 
+### **Linting**
+To lint project, run
+```
+npm run lint
+```
+
+To fix the lint issues in project, run
+```
+npm run lint:fix
+```
+
 ## Features
 - [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
 - [Webpack 5](https://webpack.js.org/concepts/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Eslint](https://github.com/eslint/eslint)
 
 ## Dependencies
 ### **TypeScript**
@@ -43,6 +68,11 @@ npm run build
 - [css-loader](https://github.com/webpack-contrib/css-loader) - Resolve CSS imports
 - [ts-loader](https://github.com/TypeStrong/ts-loader) - TypeScript loader for webpack, Resolve TypeScript
 - [url-loader](https://github.com/webpack-contrib/url-loader) - Loader for webpack which transforms files into base64 URIs.
+
+### **Linting**
+- [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code using eslint.
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint) - Provide tooling which enables eslint to support typescript.
+- [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint) - An ESLint parser which enables ESLint to lint TypeScript source code.
 
 ## Author
 - Anuj Sharma
