@@ -6,18 +6,20 @@ This template covers all aspects of react application development without any ef
 - Package bundling - Webpack 5
 - Code quality - Eslint
 
+![Minimal React TypeScript boilerplate](https://gifyu.com/image/Sshvw)
+
 ## Installation
 Clone repository
 ```
 // Using SSH
-git clone git@github.com:anuj-webdev/minimal-react-boilerplate.git
+git clone git@github.com:anuj-webdev/minimal-react-typescript-boilerplate.git
 
 // Using HTTPS
-git clone https://github.com/anuj-webdev/minimal-react-boilerplate.git
+git clone https://github.com/anuj-webdev/minimal-react-typescript-boilerplate.git
 ```
 run npm install.
 ```
-cd minimal-react-boilerplate
+cd minimal-react-typescript-boilerplate
 npm install
 ```
 
