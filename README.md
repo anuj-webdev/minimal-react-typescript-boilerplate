@@ -6,7 +6,7 @@ This template covers all aspects of react application development without any ef
 - Package bundling - Webpack 5
 - Code quality - Eslint
 
-![Minimal React TypeScript boilerplate](https://gifyu.com/image/Sshvw)
+![Minimal React TypeScript boilerplate](https://s8.gifyu.com/images/project-gif.gif)
 
 ## Installation
 Clone repository
