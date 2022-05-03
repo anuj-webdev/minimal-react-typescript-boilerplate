@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js",
+    "test": "jest --config jest.config.js",
     "lint": "eslint ./src/**/* --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint --fix ./src/**/* --ext .js,.jsx,.ts,.tsx",
     "pretty": "prettier --check ./src/**/*",
@@ -16,13 +17,19 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.5.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
+    "babel-jest": "^28.0.3",
     "css-loader": "^6.7.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^28.0.3",
     "prettier": "^2.6.2",
     "ts-loader": "^9.2.7",
     "typescript": "^4.6.2",

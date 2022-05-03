@@ -2,9 +2,9 @@
 A truly minimal most updated React 18, typescript boilerplate using webpack 5. Best suited for the projects where you want minimum bundle size and more control on webpack, typescript, eslint configurations, so that react project can be started with custom configurations without any much efforts from day one.
 
 This template covers all aspects of react application development without any efforts.
-* Development - React 18, Typescript
-* Package bundling - Webpack 5
-* Code quality - Eslint
+- Development - React 18, Typescript
+- Package bundling - Webpack 5
+- Code quality - Eslint
 
 ## Installation
 Clone repository
@@ -88,6 +88,14 @@ npm run pretty:fix
 ### **Prettier**
 - [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - To turns off all rules that are unnecessary/conflicting with Prettier.
+
+### **Jest & Babel**
+- [Jest](https://github.com/facebook/jest) - JavaScript testing framework to run tests.
+- [@types/jest](https://github.com/DefinitelyTyped/DefinitelyTyped) - Type definition support for jest.
+- [@babel/core](https://github.com/babel/babel) - Babel compiler core
+- [@babel/preset-env](https://github.com/babel/babel) - To support latest JavaScript features.
+- [@babel/preset-typescript](https://github.com/babel/babel) - Jest plugin to use babel for typescript transformation.
+- [babel-jest](https://github.com/facebook/jest) - Jest plugin to use babel for transformation.
 
 ## Author
 - Anuj Sharma
